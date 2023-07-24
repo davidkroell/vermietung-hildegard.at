@@ -2,7 +2,7 @@
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Haus Hildegard"
 subtitle: |
-  Die zentrale Personalunterkunft in St. Jakob in Defereggental
+  Die zentrale Personalunterkunft in St. Jakob im Defereggental
 content : |
   Das Haus Hildegard wird als <strong>Privatzimmervermietung</strong> mit verschiedenen Zimmerkategorien geführt.
   Speziell für <strong>Arbeiter*innen</strong> wie z. B. <strong>Monteure</strong>, <strong>Forstarbeiter*innen</strong>
@@ -11,5 +11,5 @@ content : |
 button:
   label : "Mehr erfahren"
   link : "#first"
-image : "images/banner.jpg"
+image : "images/banner-winter.jpg"
 
