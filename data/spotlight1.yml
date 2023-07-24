@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "Einbettzimmer"
+content: |
+  Moderne Zimmereinrichtung aus Buchenholz - inklusive Dusche und WC.
+button:
+  label: "Jetzt anfragen"
+  link: "#contact"
+image: "images/spotlight01.jpg"

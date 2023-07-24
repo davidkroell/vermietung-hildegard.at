@@ -1,0 +1,42 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+theme = "hugo-story"
+title = "Vermietung Hildegard"
+copyright = "2023"
+
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
+
+relativeURLs = "true"
+#canonifyURLs = "true"
+
+# Local
+baseURL = "https://vermietung-hildegard.at/"
+publishDir = "public"
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+
+[Params]
+description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
+logo = "images/banner.jpg"
+favicon = true
+
+[Params.social]
+email = "vermietung.hildegard@gmail.com"
+phone = "+43 680 4010586"
+
+[Params.asset]
+fontawesome_css = ["css/fontawesome-all.min.css"]
+fontawesome_js = ["js/fontawesome-all.min.js"]

@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "second"
+title : "Doppelzimmer"
+content: |
+  Große Doppelzimmer im Landhausstil mit Dusche und WC.
+button:
+  label: "Jetzt anfragen"
+  link: "#contact"
+image: "images/spotlight02.jpg"

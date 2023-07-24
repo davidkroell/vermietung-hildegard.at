@@ -1,0 +1,12 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "third"
+title : "Küche"
+content: |
+  Die Gemeinschaftsküche im Erdgeschoß ist voll ausgestattet und bietet Platz zum gemütlichen Beisammensein.
+  Unter anderem bietet sie einen Herd mit Backofen, Geschirrspüler, Kühlschrank, Gefrierschrank und einen Esstisch mit Eckbank.
+  Gleich nebenan befindet sich eine kleine Speisekammer.
+button:
+  label: "Jetzt anfragen"
+  link: "#contact"
+image: "images/spotlight03.jpg"

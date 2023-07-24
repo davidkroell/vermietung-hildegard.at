@@ -1,0 +1,32 @@
+title : "Besonderheiten"
+style: "style1 medium onscroll-fade-in"
+items:
+  # feature item loop
+  - name : "Zentrale Lage"
+    content : "Durch die direkte Lage im Dorfzentrum sind alle Betriebe leicht erreichbar - trotz der ruhigen Lage."
+    style : "style2 major fa-location-dot"
+
+  # feature item loop
+  - name : "Parkplätze"
+    content : "Direkt vorm Haus stehen genügend PKW-Parkplätze kostenlos zur Verfügung."
+    style : "solid style2 major fa-square-parking"
+    
+  # feature item loop
+  - name : "Garten"
+    content : "Die Außenanlagen laden mit den großzügigen Grünflächen zum Entspannen ein."
+    style : "solid style2 major fa-leaf"
+    
+  # feature item loop
+  - name : "WLAN"
+    content : "Kostenloses WLAN lässt die Bewohner mit ihren Familien und Freunden in Kontakt bleiben."
+    style : "solid style2 major fa-wifi"
+    
+  # feature item loop
+  - name : "Küche"
+    content : "Die vollausgestattete Gemeinschaftsküche steht allen Bewohnern zur Verfügung."
+    style : "solid style2 major fa-utensils"
+    
+  # feature item loop
+  - name : "Balkon"
+    content : "Auf den Balkonen kann der Kaffee mit wunderbarer Aussicht genossen werden."
+    style : "style2 major fa-chair"

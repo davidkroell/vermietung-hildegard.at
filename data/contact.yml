@@ -1,0 +1,19 @@
+title: "Kontakt"
+content: "Wünschen Sie noch weitere Informationen, haben Sie Fragen oder möchten Sie gleich buchen? <br/>
+Rufen Sie an, schreiben Sie eine Mail oder nutzen Sie das untenstehende Kontaktformular! Wir freuen uns, von Ihnen zu hören."
+style: "style1 medium onscroll-fade-in"
+items:
+  # feature item loop
+  - name : "Adresse"
+    content : '<a href="https://goo.gl/maps/2MfwN8dSneiuMpVJ6">Innerrotte 40, 9963 St. Jakob i. D.</a>'
+    style : "style2 major fa-location-dot"
+
+  # feature item loop
+  - name : "Telefon"
+    content : '<a href="tel:+43 680 4010586">+43 680 4010586</a>'
+    style : "solid style2 major fa-phone"
+    
+  # feature item loop
+  - name : "E-Mail"
+    content : '<a href="mailto:vermietung.hildegard@gmail.com">vermietung.hildegard@gmail.com</a>'
+    style : "solid style2 major fa-envelope"
