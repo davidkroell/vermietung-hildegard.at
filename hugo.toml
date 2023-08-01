@@ -38,5 +38,5 @@ email = "vermietung.hildegard@gmail.com"
 phone = "+43 680 4010586"
 
 [Params.asset]
-fontawesome_css = ["css/fontawesome-all.min.css"]
-fontawesome_js = ["js/fontawesome-all.min.js"]
+fontawesome_css = ["css/fontawesome.min.css"]
+fontawesome_js = ["js/fontawesome.min.js"]
