@@ -14,7 +14,7 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "https://vermietung-hildegard.at/"
+baseURL = "https://beta.vermietung-hildegard.at"
 publishDir = "public"
 
 ## -----------------------------------------------

@@ -2,8 +2,30 @@
 	<title>{{ .Site.Title }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="">
-	<meta name="author" content="">
+
+	<!-- SEO -->
+	<meta name="description" content="Das Haus Hildegard wird als Privatzimmervermietung mit verschiedenen Zimmerkategorien geführt. Speziell für Arbeiter*innen wie z. B. Monteure, Forstarbeiter*innen und Saisonkräfte im Gastgewerbe aus dem In- und Ausland ist das Haus perfekt geeignet.">
+	<meta name="author" content="Vermietung Hildegard">
+
+	<meta name="keywords" content='Vermietung, Hildegard, Haus Hildegard, Personalunterkunft, Unterkunft, Zimmer, St. Jakob, Defereggental, '>
+
+	<meta property="og:url" content="{{ .Site.BaseURL }}">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ .Site.Title }}">
+	<meta property="og:description" content="Das Haus Hildegard wird als Privatzimmervermietung mit verschiedenen Zimmerkategorien geführt. Speziell für Arbeiter*innen wie z. B. Monteure, Forstarbeiter*innen und Saisonkräfte im Gastgewerbe aus dem In- und Ausland ist das Haus perfekt geeignet.">
+	<meta property="og:image" content="{{ .Site.BaseURL }}images/banner-winter.jpg">
+	<meta property="og:image:secure_url" content="{{ .Site.BaseURL }}images/banner-winter.jpg">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Vermietung Hildegard">
+	<meta name="twitter:description" content="Das Haus Hildegard wird als Privatzimmervermietung mit verschiedenen Zimmerkategorien geführt. Speziell für Arbeiter*innen wie z. B. Monteure, Forstarbeiter*innen und Saisonkräfte im Gastgewerbe aus dem In- und Ausland ist das Haus perfekt geeignet.">
+	<meta property="twitter:domain" content="{{ .Site.BaseURL }}">
+	<meta property="twitter:url" content="{{ .Site.BaseURL }}">
+	<meta name="twitter:image" content="{{ .Site.BaseURL }}images/banner-winter.jpg">
+
+	<link rel="canonical" href="{{ .Site.BaseURL }}/" />
+	<!-- end SEO -->
+
 	{{ if .Site.Params.favicon }}
 	{{ partial "favicon" }}
 	{{ end }}
