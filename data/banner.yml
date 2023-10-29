@@ -11,5 +11,5 @@ content : |
 button:
   label : "Mehr erfahren"
   link : "#first"
-image : "images/banner-winter.jpg"
+image : "images/banner-winter.webp"
 

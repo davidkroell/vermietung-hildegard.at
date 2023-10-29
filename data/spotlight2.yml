@@ -3,8 +3,9 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 id: "second"
 title : "Doppelzimmer"
 content: |
-  Große Doppelzimmer im Landhausstil mit Dusche und WC.
+  Unsere großzügige Doppelzimmer im charmanten Landhausstil bieten eine erholsame Athmophäre - 
+  überzeugend ist auch das Badezimmer mit Dusche und WC.
 button:
   label: "Jetzt anfragen"
   link: "#contact"
-image: "images/doppelzimmer-oben-klein.jpg"
+image: "images/doppelzimmer-oben-klein.webp"
