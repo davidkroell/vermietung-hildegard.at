@@ -1,0 +1,11 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "third"
+title : "Garconniere"
+content: |
+  Unsere geräumigen Garconnieren bieten einen eigenen privaten Küchenblock, Dusche mit WC und einen sonnigen Balkon
+  der nach Süden ausgerichtet ist.
+button:
+  label: "Jetzt anfragen"
+  link: "#contact"
+image: "images/garconniere-bett.webp"
