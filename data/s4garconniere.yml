@@ -3,7 +3,8 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 id: "fourth"
 title : "Garconniere"
 content: |
-  Die Garconniere bietet eine Küche nur für Sie.
+  Unsere geräumigen Garconnieren bieten einen privaten Küchenblock, Dusche mit WC und einen sonnigen Balkon
+  der nach Süden ausgerichtet ist.
 button:
   label: "Jetzt anfragen"
   link: "#contact"
