@@ -9,16 +9,22 @@ pictures:
     thumb: "images/gallery/thumbs/vorne-sommer.webp"
     button: "Details"
 
-  - title: "Badezimmer"
-    content: ""
-    image: "images/gallery/fulls/badezimmer.webp"
-    thumb: "images/gallery/thumbs/badezimmer.webp"
-    button: "Details"
-
   - title: "Balkon"
     content: "Ausblick Richtung Zufahrt zum Haus und ins Dorf"
     image: "images/gallery/fulls/balkon-ausblick.webp"
     thumb: "images/gallery/thumbs/balkon-ausblick.webp"
+    button: "Details"
+
+  - title: "Bad mit Dusche und WC"
+    content: ""
+    image: "images/gallery/fulls/bad-neu.webp"
+    thumb: "images/gallery/thumbs/bad-neu.webp"
+    button: "Details"
+
+  - title: "Bad mit Dusche und WC"
+    content: ""
+    image: "images/gallery/fulls/bad-neu2.webp"
+    thumb: "images/gallery/thumbs/bad-neu2.webp"
     button: "Details"
 
   - title: "Doppelzimmer"
@@ -45,14 +51,20 @@ pictures:
     thumb: "images/gallery/thumbs/gang-og1.webp"
     button: "Details"
 
+  - title: "Badezimmer"
+    content: ""
+    image: "images/gallery/fulls/badezimmer.webp"
+    thumb: "images/gallery/thumbs/badezimmer.webp"
+    button: "Details"
+
   - title: "Bad mit Dusche und WC"
     content: ""
     image: "images/gallery/fulls/bad-dusche-wc.webp"
     thumb: "images/gallery/thumbs/bad-dusche-wc.webp"
     button: "Details"
 
-  - title: "Garconniere mit Küche und Tisch"
+  - title: "Garconniere"
     content: ""
-    image: "images/gallery/fulls/garconniere-tisch.webp"
-    thumb: "images/gallery/thumbs/garconniere-tisch.webp"
+    image: "images/gallery/fulls/garconniere-bett.webp"
+    thumb: "images/gallery/thumbs/garconniere-bett.webp"
     button: "Details"
