@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "fourth"
+title : "Garconniere"
+content: |
+  Die Garconniere bietet eine Küche nur für Sie.
+button:
+  label: "Jetzt anfragen"
+  link: "#contact"
+image: "images/garconniere-bett.webp"

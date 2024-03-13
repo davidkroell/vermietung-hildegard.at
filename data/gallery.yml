@@ -50,3 +50,9 @@ pictures:
     image: "images/gallery/fulls/bad-dusche-wc.webp"
     thumb: "images/gallery/thumbs/bad-dusche-wc.webp"
     button: "Details"
+
+  - title: "Garconniere mit Küche und Tisch"
+    content: ""
+    image: "images/gallery/fulls/garconniere-tisch.webp"
+    thumb: "images/gallery/thumbs/garconniere-tisch.webp"
+    button: "Details"
