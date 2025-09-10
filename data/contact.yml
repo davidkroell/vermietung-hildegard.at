@@ -10,10 +10,10 @@ items:
 
   # feature item loop
   - name : "Telefon"
-    content : '<a href="tel:+43 680 4010586">+43 680 4010586</a>'
+    content : '<a data-enc="ff2219ec1a0cacec22ac23aca70c1a" data-prefix="tel:" data-setcontent="t" class="contact-enc"></a>'
     style : "solid style2 major fa-phone"
     
   # feature item loop
   - name : "E-Mail"
-    content : '<a href="mailto:vermietung.hildegard@gmail.com">vermietung.hildegard@gmail.com</a>'
+    content : '<a data-enc="cbabf3bbb8abd4eb14b4e009b80b24abb421f32439b4bb21b80be01cc4bb" data-prefix="mailto:" data-setcontent="t" class="contact-enc"></a>'
     style : "solid style2 major fa-envelope"

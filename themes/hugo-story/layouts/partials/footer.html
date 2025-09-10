@@ -6,8 +6,8 @@
             {{ with .Site.Params.social.twitter }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>{{end}}
             {{ with .Site.Params.social.instagram }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>{{end}}
             {{ with .Site.Params.social.linkedin }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>{{end}}
-            {{ with .Site.Params.social.email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>{{end}}
-            {{ with .Site.Params.social.phone }}<li><a target="_blank" href="tel:{{.}}" class="fav icon style2 fa-phone"><span class="label">Phone</span></a></li>{{end}}
+            {{ with .Site.Params.social.email }}<li><a target="_blank" data-enc="{{.}}" data-prefix="mailto:" class="fav icon style2 fa-envelope contact-enc"><span class="label">Email</span></a></li>{{end}}
+            {{ with .Site.Params.social.phone }}<li><a target="_blank" data-enc="{{.}}" data-prefix="tel:" class="fav icon style2 fa-phone contact-enc"><span class="label">Phone</span></a></li>{{end}}
         </ul>
         <p>
             Haus Hildegard &copy; <script>document.write(new Date().getFullYear().toString())</script>
@@ -23,3 +23,24 @@
 {{ range .Site.Params.asset.fontawesome_js -}}
     <script type="text/javascript" src="{{ . | absURL }}"></script>
 {{- end }}
+
+
+{{ $script := resources.Get "js/obfuscate.js" | minify | fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".contact-enc").forEach(el => {
+        const enc = el.dataset.enc;
+        const prefix = el.dataset.prefix ?? '';
+        const dec = decrypt(enc);
+        el.href = prefix + dec;
+
+        if (el.dataset.setcontent == "t") {
+            el.innerHTML = dec;
+        }
+    });
+
+    });
+</script>

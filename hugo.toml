@@ -4,7 +4,7 @@
 
 theme = "hugo-story"
 title = "Vermietung Hildegard"
-copyright = "2023"
+copyright = "2025"
 
 ## -----------------------------------------------
 ## Publish
@@ -14,14 +14,14 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "https://beta.vermietung-hildegard.at"
+baseURL = "https://vermietung-hildegard.at"
 publishDir = "public"
 
 ## -----------------------------------------------
 ## Hugo Built-in Features
 ## -----------------------------------------------
 
-disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+disableKinds = ["taxonomy", "section"]
 
 ## -----------------------------------------------
 ## Site Parameters
@@ -34,8 +34,8 @@ logo = "images/banner.jpg"
 favicon = true
 
 [Params.social]
-email = "vermietung.hildegard@gmail.com"
-phone = "+43 680 4010586"
+email = "cbabf3bbb8abd4eb14b4e009b80b24abb421f32439b4bb21b80be01cc4bb"
+phone = "ff2219ec1a0cacec22ac23aca70c1a"
 
 [Params.asset]
 fontawesome_css = ["css/fontawesome.min.css"]
